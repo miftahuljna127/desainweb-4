@@ -1,0 +1,96 @@
+#card {
+	background : #fbfbfb;
+	border-radius: 8px;
+	box-shadow: 1px 2px 8px rgba(0,0,0,0.65);
+	height: 410px;
+	width: 329px;
+	margin: 6rem auto 8.1rem auto;
+}
+
+#card-content{
+	padding: 12px 44px;/*jarak dari teks ke marginnya*/
+}
+
+#card-title{
+	font-family: "Raleway Thin", Verdana, Arial, sans-serif;
+	letter-spacing: 4px;
+	padding-bottom: 23px;
+	padding-top: 13px;
+	text-align: center;
+}
+
+.underline-title{
+	background: -webkit-linear-gradient(right,#00ffae, #005eff);
+	height: 2px;
+	margin:-1.1rem auto 0 auto;
+	width: 200px;
+}
+
+a{
+	text-decoration: none;
+}
+
+label{
+	font-family: "Raleway Thin", Verdana, Arial, sans-serif;
+	font-size: 11pt;
+}
+
+#forgot-pass{
+	color: #005eff;
+	font-family:  "Raleway Thin", Verdana, Arial, sans-serif;
+	font-size: 10pt;
+	margin-top: 3px;
+	text-align: right;
+}
+
+.form{
+	align-items: left;
+	display: flex;
+	flex-direction: column;/* colomn dari atas kebawah*/
+
+}
+
+.form-border{
+	background: -webkit-linear-gradient(right,#00ffae, #005eff);
+	height: 1px;
+	width: 100%;
+}
+
+.form-content{
+	border: none;
+	outline: none;
+	padding-top: 15px;
+	background: #fbfbfb;
+}
+
+#submit-btn{
+
+	background: -webkit-linear-gradient(right,#00ffae, #005eff);
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 1px 8px #24c64f;
+	cursor: pointer;
+	color: white;
+	font-family:  "Raleway Thin", Verdana, Arial, sans-serif;
+	width: 153px;
+	height: 43px;
+	margin: 0;
+	margin-top: 10px;
+	transition: 0.25s;
+}
+
+#submit-btn:hover{
+	box-shadow: 0px 1px 18px #24c64f;
+}
+
+#body{
+	background: -webkit-linear-gradient(bottom,#00ffae, #005eff);
+	background-repeat: no-repeat;
+}
+
+#signup{
+	font-family:  "Raleway Thin", Verdana, Arial, sans-serif;
+	font-size: 10pt;
+	margin-top: 3px;
+	text-align: left;
+	color: #005eff;
