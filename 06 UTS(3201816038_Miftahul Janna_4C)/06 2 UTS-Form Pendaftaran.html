@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title>Form Pendaftaran Online</title>
+	</head>
+
+	<body background="web.png">
+		<h2>Pendaftaran PEC</h2>
+		<form name="pendaftaran">
+			<table>
+				<tr>
+					<td>Nama Lengkap</td>
+					<td><input type="text" name="nama" size="40"></td>
+				</tr>
+
+				<tr>
+					<td>Tempat, tanggal lahir</td>
+					<td>
+						<input type="text" size="20" name="tempat_lahir" id="tempat_lahir">,
+						<input type="text" size="3" name="tanggal" id="tanggal">/
+						<input type="text" size="7" name="bulan" id="bulan">/
+						<input type="text" size="5" name="tahun" id="tahun">
+					</td>
+				</tr>
+
+				<tr>
+					<td>Agama</td>
+					<td>
+						<select name="agama">
+							<option value="islam">Islam</option>
+							<option value="kristen">Kristen</option>
+							<option value="hindu">Hindu</option>
+							<option value="budha">Budha</option>
+							<option value="katholik">Katholik</option>
+							<option value="konghucu">Konghucu</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td>
+						<input type="radio" name="gender" checked>Laki-laki
+						<input type="radio" name="gender">Perempuan
+					</td>
+				</tr>
+
+				<tr>
+					<td>Asal Kampus</td>
+					<td><input type="text" name="kampus" size="40"></td>
+				</tr>
+
+				<tr>
+					<td>Semester</td>
+					<td>
+						<select name="semester">
+							<option value="1">Semester 1</option>
+							<option value="2">Semester 2</option>
+							<option value="3">Semester 3</option>
+							<option value="4">Semester 4</option>
+							<option value="5">Semester 5</option>
+							<option value="6">Semester 6</option>
+							<option value="7">Semester 7</option>
+							<option value="8">Semester 8</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Fakultas/Jurusan/Prodi</td>
+					<td><input type="text" name="jurusan" size="40" maxlength="30"></td>
+				</tr>
+
+				<tr>
+					<td>Alamat</td>
+					<td>
+						<textarea name="nama input" rows="4" cols="40" placeholder="Masukkan alamatmu disini"></textarea>
+					</td>
+				</tr>
+
+				<tr>
+					<td>No. Hp</td>
+					<td>
+						<input type="hp" name="no.hp" size="40" placeholder="No. Hp">
+					</td>
+				</tr>
+
+				<tr>
+					<td>Email</td>
+					<td>
+						<input type="email" name="email" size="40" placeholder="Masukkan Email">
+					</td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td>
+						<input size= "10" type="submit" value="Daftar">
+					</td>
+				</tr>
+
+			</table>
+		</form>
+	</body>
+</html>

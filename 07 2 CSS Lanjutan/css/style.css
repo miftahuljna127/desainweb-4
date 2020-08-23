@@ -1,0 +1,69 @@
+body { 	position: center;
+		padding:10px;
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: 1400px 650px;
+		background-color:#008B8B;
+		background-attachment: fixed;
+}
+
+p {	color: black;
+	line-height: 25px;}
+
+.join {	color: white;
+		border: none;
+		font-size: 16px;
+		font-weight: bold;
+		border-radius: 100px;
+		width: 150px;
+		height: 40px;
+		background-color: #696969;
+	}
+
+	.join:hover {
+		background-color: black;
+	}
+
+img.kiri  { display: block;
+			width: 500px;
+			height: 250px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 5px;
+}
+
+	figcaption.text 
+	{	color: #000000;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+img.tengah {display: block;
+			width: 500px;
+			height: 250px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 5px;}
+
+	figcaption.text-2 
+	{	color: #000000;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+img.kanan { display: block;
+			width: 500px;
+			height: 250px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 5px;
+}
+
+	figcaption.text-3 
+	{	color: #000000;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
