@@ -1,0 +1,177 @@
+.bungkus{
+	background: #0D4A6F;
+	width: 100%;
+	margin: 10px auto;
+}
+
+/*bagian header*/
+.bungkus .header{
+	background: #0D4A6F;
+	/*background: -webkit-linear-gradient(right,#005eff, #ffc100);*/
+	padding: 2px 10px;
+}
+
+h1 {
+	color: #ffffff;
+	text-align: center;
+}
+
+p{
+	color: #ffffff;
+	text-align: center;
+	font-size: 18px;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.bungkus .menu{
+	background: red;
+}
+
+.bungkus .menu ul{
+	padding: 0;
+	margin: 1;
+	background: #0099CC;
+	overflow: hidden;
+}
+
+.bungkus .menu ul li{
+	float: right;
+	list-style-type: none;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right:40px;
+    font: Tahoma;
+    font-size: 18px;
+}
+
+.bungkus .menu ul a:hover{
+    color: #ffc100;
+}
+
+.bungkus .menu a{
+	color: white;
+}
+
+.bungkus .badan .sidebar a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+    padding: 15px;
+}
+
+
+.bungkus .badan .sidebar a:hover{
+    color: #ffc100;
+}
+
+/*akhir menu*/
+.clear{
+	clear: both;/*menghilangkan efek atau dekorasi*/
+}
+
+.badan{
+	height: 450px;
+}
+
+/*badan sidebar*/
+.bungkus .badan .sidebar{
+	background: #0D4A6F;
+	float: left;
+	width: 15%;
+	height: 100%;
+	color: #ffffff;
+}
+
+.bungkus .badan .sidebar ul{
+		line-height: 3; 
+		color: white;
+		border: none;
+		font-size: 16px;
+		font-weight: bold;
+		border-radius: 100px;
+		width: 150px;
+		height: 40px;
+}
+
+/*akhir sidebar*/
+.bungkus .badan .content{
+	background: #ffffff;
+	float: left;
+	height: 100%;
+	width: 84%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.text-content{
+	text-align: center;
+}
+
+.content h4{
+	text-align: center;
+	font-size: 20px;
+	font-family: Georgia, serif;
+	color: #2c4762;
+}
+
+.box{
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 100%;
+	padding-left: 7%;
+
+}
+
+.box-content{
+	position: relative;
+    padding: 10px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    width: 250px;
+    margin: 30px;
+    border-radius: 10px;
+  overflow: hidden;  
+}
+
+.item-content{
+	width: 100%;
+    padding: 1rem 0;
+}
+
+.item-content img {
+    width: 100%;
+    transition: filter 0.8s ease;
+    -webkit-transition: 0.4s ease;
+}
+
+.box-content:hover .item-content img{
+	-webkit-transform: scale(1.08);
+	transform: scale(1.08);
+}
+
+.item-content h6 {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 3px;
+
+}
+
+/* Bagian Footer*/
+.bungkus .footer{
+	width: 100%;
+	padding: 20px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.tanggal{
+	color: #ffffff;
+}

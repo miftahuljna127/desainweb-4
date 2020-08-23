@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript</title>
+	</head>
+	<body>
+		<div id="pesan"><h1>Welcome</h1></div>
+		<button id="tombolWarna" onclick="gantiWarna()">Hijau</button>
+
+		<script type="text/javascript">
+			function gantiWarna()
+			{
+				var pesan = document.getElementById('pesan');
+				var button = document.getElementById('tombolWarna');
+				if (button.innerHTML == "Hijau") 
+				{
+					pesan.style.cssText = "background-color: green;";
+					button.innerHTML = "Merah";
+				}
+				else if (button.innerHTML == "Merah") 
+				{
+					pesan.style.cssText = "background-color: red;";
+					button.innerHTML = "Biru";
+				}
+				else if (button.innerHTML == "Biru") 
+				{
+					pesan.style.cssText = "background-color: blue;";
+					button.innerHTML = "Kuning";
+				}
+				else if (button.innerHTML == "Kuning")
+				{
+					pesan.style.cssText = "background-color: yellow;";
+					button.innerHTML = "Pink"
+				} 
+				else if (button.innerHTML == "Pink")
+				 {
+				 	alert("Warna ini adalah warna terakhir");
+				 }
+				
+			}
+		</script>
+	</body>
+</html>
