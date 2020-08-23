@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Latihan 4.8</title>
+	</head>
+
+	<body>
+		<canvas id="Canvas1" width="1000" height="1000" style="border: 1px solid #d3d3d3;">
+		</canvas>
+
+		<script>
+			var c = document.getElementById ("Canvas1");
+			var ctx = c.getContext ("2d");
+
+			//Kubus
+			ctx.beginPath();
+			// Sudut bawah depan
+			ctx.moveTo(50,150);
+			ctx.lineTo(50,350);
+			ctx.lineTo(250,350);
+			//sudut atas depan
+			ctx.moveTo(250,350);
+			ctx.lineTo(250,150);
+			ctx.lineTo(50,150);
+			//sudut bawah belakang
+			ctx.moveTo(150,50);
+			ctx.lineTo(150,250);
+			ctx.lineTo(150,250);
+			//sudut atas belakang
+			ctx.moveTo(350,250);
+			ctx.lineTo(350,50);
+			ctx.lineTo(150,50);
+			//sambungan atas kiri
+			ctx.moveTo(50,150);
+			ctx.lineTo(150,50);
+			//sambungan kiri bawah
+			ctx.moveTo(50,350);
+			ctx.lineTo(150,250);
+			//sambungan kanan bawah
+			ctx.moveTo(250,350);
+			ctx.lineTo(350,250);
+			//sambungan kanan atas
+			ctx.moveTo(250,150);
+			ctx.lineTo(350,50);
+			//sambungan bawah belakang
+			ctx.moveTo(150,250);
+			ctx.lineTo(350,250);
+			ctx.stroke();
+			ctx.closePath();
+
+			//Segitiga
+			ctx.beginPath();
+			ctx.moveTo(600,10);
+			ctx.lineTo(800,310);
+			ctx.lineTo(400,310);
+			ctx.closePath();
+			ctx.stroke();
+
+			//Lingkaran
+			ctx.beginPath()
+			ctx.arc(600,203,105,0,2*Math.PI);
+			ctx.stroke();
+		</script>
+	</body>
+</html>

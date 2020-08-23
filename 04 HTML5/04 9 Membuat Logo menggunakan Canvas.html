@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Latihan 4.9</title>
+	</head>
+
+	<body>
+		<canvas id="Canvas1" width="500" height="500" style="border: 1px solid #d3d3d3;">
+		</canvas>
+
+		<script>
+			var c = document.getElementById ("Canvas1");
+			var ctx = c.getContext ("2d");
+
+			ctx.font = "70 px script";
+			ctx.fillText ("Homestay", 50,340);
+
+			ctx.beginPath();
+			ctx.moveTo(50,150);
+			ctx.lineTo(50,280);
+			ctx.lineTo(250,280);
+
+			ctx.moveTo(250,280);
+			ctx.lineTo(250,150);
+			ctx.lineTo(50,150);
+			ctx.stroke();
+			ctx.closePath();
+
+			//segitiga
+			ctx.beginPath();
+			ctx.moveTo(50,150);
+			ctx.lineTo(150,50);
+			ctx.lineTo(250,150);
+			ctx.stroke();
+			ctx.closePath();
+
+			//garis vertical
+			ctx.beginPath();
+			ctx.moveTo(150,280);
+			ctx.lineTo(150,150);
+			ctx.stroke();
+			ctx.closePath();
+
+			// Pintu
+			ctx.beginPath();
+			ctx.moveTo(50,170);
+			ctx.lineTo(130,170);
+			ctx.lineTo(130,280);
+			ctx.stroke();
+			ctx.closePath();
+
+			// Lingkaran sedang
+			ctx.beginPath()
+			ctx.arc(150,100,15,0,2*Math.PI);
+			ctx.stroke();
+			ctx.closePath();
+
+			//Lingkaran kecil
+			ctx.beginPath()
+			ctx.arc(70,220,5,0,2*Math.PI);
+			ctx.stroke();
+			ctx.closePath();
+
+			// Lingkaran Besar
+			ctx.beginPath();
+			ctx.arc(160,210,170,0,2*Math.PI);
+			ctx.stroke();
+			ctx.closePath();
+		</script>
+	</body>
+</html>
